@@ -94,8 +94,8 @@ describe('AppsRegisterComponent', () => {
 
     it('should display an error if no the name is invalid', () => {
       const tests = [
-        { name: '', type: 'source', uri: 'http://foo.bar', metaDataUri: '', force: false },
-        { name: 'd', type: 'sink', uri: 'http://foo.bar', metaDataUri: '', force: false }
+        { name: '', type: 'source', uri: 'https://foo.bar', metaDataUri: '', force: false },
+        { name: 'd', type: 'sink', uri: 'https://foo.bar', metaDataUri: '', force: false }
       ];
       const form = component.forms[0];
       tests.forEach((test) => {
@@ -114,8 +114,8 @@ describe('AppsRegisterComponent', () => {
 
     it('should display an error if no the type is invalid', () => {
       const tests = [
-        { name: 'foobar', type: '', uri: 'http://foo.bar', metaDataUri: '', force: false },
-        { name: 'foobar', type: null, uri: 'http://foo.bar', metaDataUri: '', force: false },
+        { name: 'foobar', type: '', uri: 'https://foo.bar', metaDataUri: '', force: false },
+        { name: 'foobar', type: null, uri: 'https://foo.bar', metaDataUri: '', force: false },
       ];
       const form = component.forms[0];
       tests.forEach((test) => {
@@ -154,7 +154,7 @@ describe('AppsRegisterComponent', () => {
 
     it('should display an error if the metaDataUri is invalid', () => {
       const tests = [
-        { name: 'foobar', type: 'sink', uri: 'http://foo.bar', metaDataUri: 'a', force: false }
+        { name: 'foobar', type: 'sink', uri: 'https://foo.bar', metaDataUri: 'a', force: false }
       ];
       const form = component.forms[0];
       tests.forEach((test) => {
@@ -182,8 +182,8 @@ describe('AppsRegisterComponent', () => {
 
     it('should not submit if at least one filled form is invalid', () => {
       const tests = [
-        { name: 'foobar1', type: 'source', uri: 'http://foo.bar', metaDataUri: '', force: false },
-        { name: 'foobar2', type: 'sink', uri: 'http://foo.bar', metaDataUri: '', force: false },
+        { name: 'foobar1', type: 'source', uri: 'https://foo.bar', metaDataUri: '', force: false },
+        { name: 'foobar2', type: 'sink', uri: 'https://foo.bar', metaDataUri: '', force: false },
         { name: 'foobar3', type: 'processor', uri: '', metaDataUri: '', force: false },
       ];
       component.newForm();
@@ -202,7 +202,7 @@ describe('AppsRegisterComponent', () => {
 
     it('should submit if at least one form is fill and all forms filled are valid', () => {
       const tests = [
-        { name: 'foobar1', type: 'source', uri: 'http://foo.bar', metaDataUri: '', force: false },
+        { name: 'foobar1', type: 'source', uri: 'https://foo.bar', metaDataUri: '', force: false },
         { name: '', type: '', uri: '', metaDataUri: '', force: false },
         { name: '', type: '', uri: '', metaDataUri: '', force: false },
       ];
@@ -223,7 +223,7 @@ describe('AppsRegisterComponent', () => {
 
     it('should display a message and navigate to the application list after register', () => {
       const tests = [
-        { name: 'foobar1', type: 'source', uri: 'http://foo.bar', metaDataUri: '', force: false },
+        { name: 'foobar1', type: 'source', uri: 'https://foo.bar', metaDataUri: '', force: false },
         { name: '', type: '', uri: '', metaDataUri: '', force: false },
         { name: '', type: '', uri: '', metaDataUri: '', force: false },
       ];

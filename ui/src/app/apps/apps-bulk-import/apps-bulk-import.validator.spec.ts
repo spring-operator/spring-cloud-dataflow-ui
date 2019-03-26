@@ -13,7 +13,7 @@ describe('AppsBulkImportValidator', () => {
       [
         ' ',
         'bb',
-        ' http://foo.ly/foo',
+        ' https://foo.ly/foo',
         'b b'
       ].forEach((mock) => {
         const uri: FormControl = new FormControl(mock);
@@ -22,8 +22,8 @@ describe('AppsBulkImportValidator', () => {
     });
     it('valid', () => {
       [
-        'http://foo.ly/foo',
-        'http://foo.bar:bar.foo-foo:bar-bar'
+        'https://foo.ly/foo',
+        'https://foo.bar:bar.foo-foo:bar-bar'
       ].forEach((mock) => {
         const uri: FormControl = new FormControl(mock);
         expect(AppsBulkImportValidator.uri(uri)).toBeNull();
@@ -43,8 +43,8 @@ describe('AppsBulkImportValidator', () => {
     });
     it('valid', () => {
       [
-        'foo=http://foo.ly/foo',
-        'bar=http://foo.bar:bar.foo-foo:bar-bar'
+        'foo=https://foo.ly/foo',
+        'bar=https://foo.bar:bar.foo-foo:bar-bar'
       ].forEach((mock) => {
         const uri: FormControl = new FormControl(mock);
         expect(AppsBulkImportValidator.properties(uri)).toBeNull();
