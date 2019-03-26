@@ -112,7 +112,7 @@ describe('AppsService', () => {
       const requestOptions1 = HttpUtils.getDefaultRequestOptions();
       const params1 = new URLSearchParams();
 
-      params1.append('uri', 'http://foo.bar');
+      params1.append('uri', 'https://foo.bar');
       params1.append('force', 'false');
 
       requestOptions1.params = params1;
@@ -120,7 +120,7 @@ describe('AppsService', () => {
       const requestOptions2 = HttpUtils.getDefaultRequestOptions();
       const params2 = new URLSearchParams();
 
-      params2.append('uri', 'http://bar.foo');
+      params2.append('uri', 'https://bar.foo');
       params2.append('force', 'false');
 
       requestOptions2.params = params2;
@@ -130,13 +130,13 @@ describe('AppsService', () => {
         {
           name: 'foo',
           type: ApplicationType.source,
-          uri: 'http://foo.bar',
+          uri: 'https://foo.bar',
           force: false
         },
         {
           name: 'bar',
           type: ApplicationType.sink,
-          uri: 'http://bar.foo',
+          uri: 'https://bar.foo',
           force: false
         }
       ];
