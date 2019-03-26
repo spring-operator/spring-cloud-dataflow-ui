@@ -1,11 +1,11 @@
-# Spring Cloud Data Flow Dashboard [![Stories in Ready](https://badge.waffle.io/spring-cloud/spring-cloud-dataflow-ui.svg?label=ready&title=Ready)](http://waffle.io/spring-cloud/spring-cloud-dataflow-ui) [![Stories in Progress](https://badge.waffle.io/spring-cloud/spring-cloud-dataflow-ui.svg?label=In%20Progress&title=In%20Progress)](http://waffle.io/spring-cloud/spring-cloud-dataflow-ui)
+# Spring Cloud Data Flow Dashboard [![Stories in Ready](https://badge.waffle.io/spring-cloud/spring-cloud-dataflow-ui.svg?label=ready&title=Ready)](https://waffle.io/spring-cloud/spring-cloud-dataflow-ui) [![Stories in Progress](https://badge.waffle.io/spring-cloud/spring-cloud-dataflow-ui.svg?label=In%20Progress&title=In%20Progress)](https://waffle.io/spring-cloud/spring-cloud-dataflow-ui)
 
 [![Build Status](https://travis-ci.org/spring-cloud/spring-cloud-dataflow-ui.png?branch=angular)](https://travis-ci.org/spring-cloud/spring-cloud-dataflow-ui)
 [![Build status](https://ci.appveyor.com/api/projects/status/7pqco2aqjyaphp36/branch/master?svg=true)](https://ci.appveyor.com/project/ghillert/spring-cloud-dataflow-ui/branch/master)
 [![Code Coverage](https://codecov.io/gh/spring-cloud/spring-cloud-dataflow-ui/branch/master/graph/badge.svg)](https://codecov.io/gh/spring-cloud/spring-cloud-dataflow-ui/branch/master)
 [![Dependency Status](https://www.versioneye.com/user/projects/5982002b0fb24f003b1f7de1/badge.svg?style=flat-square)](https://www.versioneye.com/user/projects/5982002b0fb24f003b1f7de1)
 
-This is the *Spring Cloud Data Flow Dashboard* user interface (UI). The UI uses [Angular][]. Source code documentation is available at http://cloud.spring.io/spring-cloud-dataflow-ui/.
+This is the *Spring Cloud Data Flow Dashboard* user interface (UI). The UI uses [Angular][]. Source code documentation is available at https://cloud.spring.io/spring-cloud-dataflow-ui/.
 
 > The Git repository for the main *Spring Cloud Data Flow* project is at: https://github.com/spring-cloud/spring-cloud-dataflow
 
@@ -107,12 +107,12 @@ Produces code coverage report.
 
     $ ng test --browsers PhantomJS --single-run --code-coverage  --reporters=coverage-istanbul
 
-[Angular]: http://angular.io/
+[Angular]: https://angular.io/
 [Angular CLI]: https://cli.angular.io/
 [frontend-maven-plugin]: https://github.com/eirslett/frontend-maven-plugin
 [Git]: https://git-scm.com/
-[Maven]: http://maven.apache.org/
-[Node.js]: http://nodejs.org/
+[Maven]: https://maven.apache.org/
+[Node.js]: https://nodejs.org/
 [npm]: https://www.npmjs.com/
 [Protractor]: https://github.com/angular/protractor
 

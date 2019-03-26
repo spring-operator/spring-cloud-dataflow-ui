@@ -35,8 +35,8 @@ describe('AppsRegisterValidator', () => {
       [
         ' ',
         /*'http://foo. bar',
-        'http://foo.b@r',
-        'http://foo.b%%r',*/
+        'https://foo.b@r',
+        'https://foo.b%%r',*/
         'f'
       ].forEach((mock) => {
         const uri: FormControl = new FormControl(mock);
@@ -47,15 +47,15 @@ describe('AppsRegisterValidator', () => {
     it('valid', () => {
       [
         null,
-        'http://foo.bar',
-        'http://foo.bar:bar',
-        'http://foo.bar:bar',
-        'http://foo.bar:bar-foo',
-        'http://foo.bar:1.0.0-BUILD-SNAPSHOT',
-        'http://foo.bar:1.0.0',
-        'http://foo.bar:bar.foo:bar',
-        'http://foo.bar:bar.foo-foo:bar',
-        'http://foo.bar:bar.foo-foo:bar-bar',
+        'https://foo.bar',
+        'https://foo.bar:bar',
+        'https://foo.bar:bar',
+        'https://foo.bar:bar-foo',
+        'https://foo.bar:1.0.0-BUILD-SNAPSHOT',
+        'https://foo.bar:1.0.0',
+        'https://foo.bar:bar.foo:bar',
+        'https://foo.bar:bar.foo-foo:bar',
+        'https://foo.bar:bar.foo-foo:bar-bar',
       ].forEach((mock) => {
         const uri: FormControl = new FormControl(mock);
         const result = AppsRegisterValidator.uri(uri);
