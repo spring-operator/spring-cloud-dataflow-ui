@@ -803,7 +803,7 @@ export const RUNTIME_APPS = {
                   port: '36395',
                   stderr: '/tmp/spring-cloud-dataflow-6123292284556332480/foostream-1503384837599/foostream.log/stderr_0.log',
                   stdout: '/tmp/spring-cloud-dataflow-6123292284556332480/foostream-1503384837599/foostream.log/stdout_0.log',
-                  url: 'http://127.0.1.1:36395',
+                  url: 'https://127.0.1.1:36395',
                   'working.dir': '/tmp/spring-cloud-dataflow-6123292284556332480/foostream-1503384837599/foostream.log'
                 },
                 _links: {
@@ -836,7 +836,7 @@ export const RUNTIME_APPS = {
                   port: '49401',
                   stderr: '/tmp/spring-cloud-dataflow-6123292284556332480/foostream-1503384843640/foostream.time/stderr_0.log',
                   stdout: '/tmp/spring-cloud-dataflow-6123292284556332480/foostream-1503384843640/foostream.time/stdout_0.log',
-                  url: 'http://127.0.1.1:49401',
+                  url: 'https://127.0.1.1:49401',
                   'working.dir': '/tmp/spring-cloud-dataflow-6123292284556332480/foostream-1503384843640/foostream.time'
                 },
                 _links: {
