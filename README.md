@@ -1,9 +1,9 @@
-# Spring Cloud Data Flow Dashboard [![Stories in Ready](https://badge.waffle.io/spring-cloud/spring-cloud-dataflow-ui.svg?label=ready&title=Ready)](http://waffle.io/spring-cloud/spring-cloud-dataflow-ui) [![Stories in Progress](https://badge.waffle.io/spring-cloud/spring-cloud-dataflow-ui.svg?label=In%20Progress&title=In%20Progress)](http://waffle.io/spring-cloud/spring-cloud-dataflow-ui)
+# Spring Cloud Data Flow Dashboard [![Stories in Ready](https://badge.waffle.io/spring-cloud/spring-cloud-dataflow-ui.svg?label=ready&title=Ready)](https://waffle.io/spring-cloud/spring-cloud-dataflow-ui) [![Stories in Progress](https://badge.waffle.io/spring-cloud/spring-cloud-dataflow-ui.svg?label=In%20Progress&title=In%20Progress)](https://waffle.io/spring-cloud/spring-cloud-dataflow-ui)
 
 |               | Build Status    |
 | ------------- | :-------------: |
-| Linux         | [![Build Status](http://build.spring.io/plugins/servlet/buildStatusImage/SCD-UILINUX)](https://build.spring.io/browse/SCD-UILINUX)  |
-| Windows       | [![Build Status](http://build.spring.io/plugins/servlet/buildStatusImage/SCD-UIWIN)](https://build.spring.io/browse/SCD-UIWIN)  |
+| Linux         | [![Build Status](https://build.spring.io/plugins/servlet/buildStatusImage/SCD-UILINUX)](https://build.spring.io/browse/SCD-UILINUX)  |
+| Windows       | [![Build Status](https://build.spring.io/plugins/servlet/buildStatusImage/SCD-UIWIN)](https://build.spring.io/browse/SCD-UIWIN)  |
 
 
 This is the *Spring Cloud Data Flow UI*. The UI uses [AngularJS][]. In order to provide nested view support, we use [AngularUI Router][]. For E2E Testing [Protractor][] is used.
@@ -111,7 +111,7 @@ Error: Could not find chromedriver at /usr/local/share/npm/lib/node_modules/prot
 Therefore, when running E2E tests, you may need to execute first: `./node_modules/protractor/bin/webdriver-manager update`.
 Please pay also special attention whether you're using a **local** or global **global** protractor instance.
 
-In order to improve the situation we may consider adding a special Grunt task for that as illustrated here: http://gitelephant.cypresslab.net/angular-js/commit/2ed4ad55022f6e5519617a3797649fe1e68f3734
+In order to improve the situation we may consider adding a special Grunt task for that as illustrated here: https://gitelephant.cypresslab.net/angular-js/commit/2ed4ad55022f6e5519617a3797649fe1e68f3734
 
 You should now be able to execute the E2E tests using grunt:
 
@@ -120,11 +120,11 @@ You should now be able to execute the E2E tests using grunt:
 You should be able to see console output similar to the following:
 
 ```
-Started connect web server on http://0.0.0.0:8000
+Started connect web server on https://0.0.0.0:8000
 
 Running "protractor:run" (protractor) task
 Starting selenium standalone server...
-Selenium standalone server started at http://10.0.1.4:60164/wd/hub
+Selenium standalone server started at https://10.0.1.4:60164/wd/hub
 .....................................
 
 Finished in 42.012 seconds
@@ -215,17 +215,17 @@ Inject your dependencies into your `index.html` file:
 
 Use [https://github.com/tjunnone/npm-check-updates](https://github.com/tjunnone/npm-check-updates)
 
-[AngularJS]: http://angularjs.org/
+[AngularJS]: https://angularjs.org/
 [AngularJS generator]: https://github.com/yeoman/generator-angular
-[Yeoman]: http://yeoman.io/
-[ngRoute]: http://docs.angularjs.org/api/ngRoute
+[Yeoman]: https://yeoman.io/
+[ngRoute]: https://docs.angularjs.org/api/ngRoute
 [AngularUI Router]: https://github.com/angular-ui/ui-router
-[Gradle]: http://www.gradle.org/
-[Grunt]: http://gruntjs.com/
+[Gradle]: https://www.gradle.org/
+[Grunt]: https://gruntjs.com/
 [grunt-maven-plugin]: https://github.com/allegro/grunt-maven-plugin
-[Bower]: http://bower.io/
-[Maven]: http://maven.apache.org/
-[Node.js]: http://nodejs.org/
+[Bower]: https://bower.io/
+[Maven]: https://maven.apache.org/
+[Node.js]: https://nodejs.org/
 [npm]: https://www.npmjs.com/
 [Protractor]: https://github.com/angular/protractor
 [ChromeDriver]: https://code.google.com/p/selenium/wiki/ChromeDriver
