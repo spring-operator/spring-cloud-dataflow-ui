@@ -40,22 +40,22 @@ define(function () {
                 return [
                     {
                         name: 'Maven based Stream Applications with RabbitMQ Binder',
-                        uri:  'http://bit.ly/' + STREAM_APP_STARTERS_VERSION_SUFFIX + 'stream-applications-rabbit-maven',
+                        uri:  'https://bit.ly/' + STREAM_APP_STARTERS_VERSION_SUFFIX + 'stream-applications-rabbit-maven',
                         force: false
                     },
                     {
                         name: 'Maven based Stream Applications with Kafka Binder',
-                        uri:  'http://bit.ly/' + STREAM_APP_STARTERS_VERSION_SUFFIX + 'stream-applications-kafka-maven',
+                        uri:  'https://bit.ly/' + STREAM_APP_STARTERS_VERSION_SUFFIX + 'stream-applications-kafka-maven',
                         force: false
                     },
                     {
                         name: 'Docker based Stream Applications with RabbitMQ Binder',
-                        uri:  'http://bit.ly/' + STREAM_APP_STARTERS_VERSION_SUFFIX + 'stream-applications-rabbit-docker',
+                        uri:  'https://bit.ly/' + STREAM_APP_STARTERS_VERSION_SUFFIX + 'stream-applications-rabbit-docker',
                         force: false
                     },
                     {
                         name: 'Docker based Stream Applications with Kafka Binder',
-                        uri:  'http://bit.ly/' + STREAM_APP_STARTERS_VERSION_SUFFIX + 'stream-applications-kafka-docker',
+                        uri:  'https://bit.ly/' + STREAM_APP_STARTERS_VERSION_SUFFIX + 'stream-applications-kafka-docker',
                         force: false
                     }
                 ];
@@ -65,12 +65,12 @@ define(function () {
                 return [
                     {
                         name: 'Maven based Task Applications',
-                        uri:  'http://bit.ly/' + TASK_APP_STARTERS_VERSION_SUFFIX + 'task-applications-maven',
+                        uri:  'https://bit.ly/' + TASK_APP_STARTERS_VERSION_SUFFIX + 'task-applications-maven',
                         force: false
                     },
                     {
                         name: 'Docker based Task Applications',
-                        uri:  'http://bit.ly/' + TASK_APP_STARTERS_VERSION_SUFFIX + 'task-applications-docker',
+                        uri:  'https://bit.ly/' + TASK_APP_STARTERS_VERSION_SUFFIX + 'task-applications-docker',
                         force: false
                     }
                 ];
