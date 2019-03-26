@@ -51,7 +51,7 @@ define(function(require) {
     var HORIZONTAL_PADDING = 5;
 
     joint.shapes.flo.TaskModule = joint.shapes.basic.Generic.extend({
-        // extending Generic: http://stackoverflow.com/questions/23960312/can-i-add-new-attributes-in-jointjs-element
+        // extending Generic: https://stackoverflow.com/questions/23960312/can-i-add-new-attributes-in-jointjs-element
         markup:
         '<g class="composed-task">' +
         '<g class="shape">' +
