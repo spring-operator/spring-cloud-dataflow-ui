@@ -13,7 +13,7 @@
             <label for="uri" class="col-sm-6 control-label">Uri</label>
             <div class="col-sm-14">
                 <input #uri="ngModel" type="text" name="uri" autofocus [(ngModel)]="model.uri"
-                       class="form-control" [pattern]="uriPattern" placeholder="http://url.to.properties">
+                       class="form-control" [pattern]="uriPattern" placeholder="https://url.to.properties">
                 <span class="help-block" *ngIf="uri.invalid && uri.touched">Please provide a valid URI pointing to the respective properties file.</span>
             </div>
         </div>
